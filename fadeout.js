@@ -5,6 +5,6 @@ $message.addClass('fadeIn fast');
 
 setTimeout(function(){
    $message.removeClass('fadeIn').addClass('fadeOut');
-}, 5000);
+}, 7000);
 };
 $(document).ready(main);
