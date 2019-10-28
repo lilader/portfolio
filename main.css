@@ -267,7 +267,10 @@ h1
 }
 
 
-
+.inlineimg{
+     width: 320px;
+    height: auto;
+}
 
 
 
@@ -339,6 +342,14 @@ width: 100%;
     padding-bottom: 100px;
 }
 
+#talks{
+   height: 300px;
+    padding-top: 40px;
+    padding-bottom: 300px;
+
+    text-align: left;
+    font-size: 18px; 
+}
 
 #contact {
     height: 500px;
