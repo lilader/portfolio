@@ -70,5 +70,6 @@ $(document).ready(function(){
 $('#c_main').wf_carousel();
 $('#c_second').wf_carousel();
 $('#c_third').wf_carousel();
-$('#c_fourth').wf_carousel();   
+$('#c_fourth').wf_carousel();
+$('#c_fifth').wf_carousel();
 });
