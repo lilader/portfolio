@@ -93,6 +93,7 @@ body {
   overflow: hidden;
   padding: 20px 24px 20px 24px;
   position: relative;
+    width:80%;
   border-top: 2px solid #ccc;
 
 
@@ -234,7 +235,7 @@ p {
 }
 
 .about {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 2;
 
 
@@ -334,11 +335,16 @@ width: 100%;
 
 
 #about {
-    height: 300px;
+    /*height: 300px;*/
     padding-top: 40px;
-    padding-bottom: 300px;
+   /* padding-bottom: 200px;*/
     width: 100%;
     text-align: center;
+    font-size: 18px;
+}
+
+#services{
+    padding-top: 40px;  
     font-size: 18px;
 }
 
@@ -349,9 +355,9 @@ width: 100%;
 }
 
 #talks{
-   height: 300px;
+  /* height: 300px;*/
     padding-top: 40px;
-    padding-bottom: 300px;
+   /* padding-bottom: 300px;*/
 
     text-align: left;
     font-size: 18px; 
@@ -369,6 +375,16 @@ width: 100%;
 }
 
 
+.bullet{
+   font-family: 'Lato', sans-serif;
+  font-size:15px;
+  line-height: 1.8;
+  text-align: left;
+  background: #e6e6e6; 
+    color: #6e6e6e;
+
+}
+
 #footer {
   background: url("footer3.PNG") repeat-x scroll center bottom;
   height: 70px;
@@ -376,18 +392,30 @@ width: 100%;
 }
 
 @media screen and (max-width: 480px) {
-  #footer {
+ /* #footer {
   width:480px;
-  }
+  }*/
 
   #header .nav {
     min-height: 15px;
     font-size: 9px;
 
   }
+    
+    #about {
+        font-size: 15px;
+    }
+    
+    #talks {
+        font-size: 15px;
+    }
+    
+    #services {
+        font-size: 15px;
+    }
 
   .wrap {
-    width: 100%;
+    width: 80%;
   }
 
   .photo_container {
@@ -460,5 +488,8 @@ margin: 0px 5px;
     h1{
         font-size: 25px
     }
+    
+    
+    
 
 }
