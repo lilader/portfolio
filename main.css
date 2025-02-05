@@ -117,7 +117,7 @@ body {
 .biggulp {
 float:left;
 padding-bottom: 4px;
-width: 520px;
+width: 500px;
 }
 
 
@@ -198,9 +198,10 @@ display:inline-block;
 
 #c_third .c_overflow > div { width:410px; height:550px; }
 
-#c_fourth .c_mask { width:500px; height:250px; overflow:hidden; margin-left: 0px }
 
-#c_fourth .c_overflow > div { width:500px; height:250px; }
+#c_fourth .c_mask { width:500px; height: 250px; overflow:hidden; margin-left: 0px }
+
+#c_fourth .c_overflow > div { width:500px; height: 250px;  }
 
 
 #c_fifth .c_mask { width:500px; height:600px; overflow:hidden; margin-left: 0px }
@@ -499,7 +500,8 @@ margin: 0px 5px;
         width: 40%;
     }
     .biggulp{
-        width: 40%;
+        width: 50%;
+        overflow: hidden;
     }
     .wrap {
     width: 95%;
@@ -508,5 +510,8 @@ margin: 0px 5px;
      .wrap img {
   width: 100%;
   }
+    
+    #c_third .c_mask {margin-left: 0px}
+    #c_second .c_mask {margin-left: 0px}
 
 }
